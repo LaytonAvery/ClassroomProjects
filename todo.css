@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+  background-color: #ddbea9;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 12px 12px 40px;
+  background: lightcoral;
+  font-size: 20px;
+}
+
+ul li:hover {
+  background: gray;
+}
+#btnSubmit :hover {
+  background-color: lightgrey;
+}
+/* .container1 {
+}
+.container2 {
+} */
+@media (max-width: 300px) {
+  .container1,
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+    height: 85px;
+  }
+
+  #pendingUL {
+    flex-direction: column;
+    align-items: center;
+  }
+  #completedUL {
+    flex-direction: column;
+    align-items: center;
+  }
+}
