@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: cornflowerblue;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  width: 100%;
+  margin: auto;
+  border: 2px solid goldenrod;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: indianred;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+#menuText {
+  padding: 10px;
+}
+
+@media (max-width: 400px) {
+  .menuImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  #dishesUL {
+    flex-direction: column;
+    align-items: center;
+  }
+}
